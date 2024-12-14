@@ -19,11 +19,23 @@ ask.addEventListener('click', function(){
     quoteBox.style.display = 'block';
     replies.style.display = 'block';
     replies.textContent = magicOBall.randomReply();
-    ball.classList.add('shake');
-    fake1.classList.add('shake');
-    fake2.classList.add('shake');
+    // ball.classList.add('shake');
+    // fake1.classList.add('shake');
+    // fake2.classList.add('shake');
     text1.style.display = 'none';
-    broke.style.display = 'none';
+    // broke.style.display = 'none';
+    fake1.style.display = 'none';
+    fake2.style.display = 'none';
     prompt('This is taking to long just ask your qusetion');
+});
+
+broke.addEventListener('click', function(){
+    quoteBox.style.display = 'none';
+    replies.style.display = 'none';
+    text1.style.display = 'block';
+    broke.style.display = 'block';
+    fake1.style.display = 'block';
+    fake2.style.display = 'block';
+    broke.style.display = 'none';
 });
 
