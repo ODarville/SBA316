@@ -23,7 +23,7 @@ ask.addEventListener('click', function(){
     // fake1.classList.add('shake');
     // fake2.classList.add('shake');
     text1.style.display = 'none';
-    // broke.style.display = 'none';
+    broke.style.display = 'block';
     fake1.style.display = 'none';
     fake2.style.display = 'none';
     prompt('This is taking to long just ask your qusetion');
@@ -37,5 +37,13 @@ broke.addEventListener('click', function(){
     fake1.style.display = 'block';
     fake2.style.display = 'block';
     broke.style.display = 'none';
+        
 });
 
+broke.addEventListener('mouseover', function(){
+    createElement('p', 'Dont do it.....');
+})
+
+broke.addEventListener('mouseout', function(){
+    createElement('p', 'Smart choice...');
+})
