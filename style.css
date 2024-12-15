@@ -6,19 +6,19 @@ body{
     color: white;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
-    border: solid red;
+    /* border: solid red; */
 }
 .text1{
     text-align: center;
     color: white;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    border: solid orange;
+    /* border: solid orange; */
     /* display: none; */
 }
 .image{
     text-align: center;
-    border: solid yellow;
+    /* border: solid yellow; */
 }
 .ask{
     text-align: center;
@@ -27,12 +27,12 @@ body{
     font-family: 'Times New Roman', Times, serif;
     border-radius: 10px;
     background-color: black;
-    border: 2px solid white;
+    /* border: 2px solid white; */
    
 }
 .broke{
     text-align: center;
-    border: solid red;
+    /* border: solid red; */
     font-family: 'Times New Roman', Times, serif;
     border-radius: 10px;
     font-size: 20px;
@@ -42,9 +42,10 @@ body{
 }
 .btnContainer{
     text-align: center; 
-    border: solid green;
+    /* border: solid green; */
     display: flex;
     justify-content: space-evenly;
+    margin-top: 100px;
 }
 .imgContainer2{
    /* text-align: center; */
@@ -65,25 +66,33 @@ body{
 .Rev{
     position: absolute;
     left: 64%;
-    top: 95%;
+    top: 75%;
+    z-index: 5;
+    height: 170px;
+    display: none;
+}
+.imgContainer4{
+    position: absolute;
+    left: 24%;
+    top: 75%;
     z-index: 5;
     height: 170px;
     display: none;
 }
 .flipRev{
     position: absolute;
-    left: 24%;
-    top: 95%;
+    left: 57%;
+    top: 5%;
     z-index: 5;
     height: 170px;
-    display: none;
+    display: none; 
 }
 .replies{
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-    border: solid blue;
+    /* border: solid blue; */
     width: 300px;
     height: 200px;
     position: absolute;
@@ -95,9 +104,9 @@ body{
 .name{
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-    border: solid blue;
+    /* border: solid blue; */
     width: 300px;
     height: 200px;
     position: absolute;
@@ -127,21 +136,21 @@ body{
       position: absolute;
       z-index: 4;
       left: 70%;
-      top: 47%;
+      top: 35%;
   }
   .fake2{
       display: none;
       position: absolute;
       z-index: 4;
       left: 1%;
-      top: 38%;
+      top: 25%;
   }
-  .textField{
+  /* .textField{
       position: absolute;
       z-index: 4;
       left: 42%;
-      top: 121%;
+      top: 90%;
       width: 290px;
       height: 20px;
       display: none;
-  }
+  } */
