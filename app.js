@@ -19,6 +19,8 @@ const image = document.querySelector('.image');
 const himself = document.getElementById('himself');
 const prompt = window.prompt;
 const textField = document.querySelector('.textField');
+const flipRev = document.querySelector('.flipRev');
+const Rev = document.querySelector('.Rev');
 
 ask.addEventListener('click', function(){
     quoteBox.style.display = 'block';
@@ -48,13 +50,13 @@ broke.addEventListener('click', function(){
     quoteBox2.style.display = 'block';
 });
 
-broke.addEventListener('mouseover', function(){
-    createElement('p', 'Dont do it.....');
-})
+// broke.addEventListener('mouseover', function(){
+//     createElement('p', 'Dont do it.....');
+// })
 
-broke.addEventListener('mouseout', function(){
-    createElement('p', 'Smart choice...');
-})
+// broke.addEventListener('mouseout', function(){
+//     createElement('p', 'Smart choice...');
+// })
 
 // textField.addEventListener('input', function(){
 //     quoteBox2.style.display = 'block';
