@@ -54,6 +54,30 @@ body{
    z-index: 5;
    display: none;
 }
+.imgContainer3{
+   /* text-align: center; */
+   left: 24%;
+   top: 30%;
+   position: absolute;
+   z-index: 5;
+   display: none;
+}
+.Rev{
+    position: absolute;
+    left: 64%;
+    top: 95%;
+    z-index: 5;
+    height: 170px;
+    display: none;
+}
+.flipRev{
+    position: absolute;
+    left: 24%;
+    top: 95%;
+    z-index: 5;
+    height: 170px;
+    display: none;
+}
 .replies{
     text-align: center;
     color: white;
@@ -67,6 +91,20 @@ body{
     top: 1%;
     z-index: 5;
     display: none;
+}
+.name{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid blue;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 7%;
+    top: 1%;
+    z-index: 5;
+    /* display: none; */
 }
 .ball:hover{
     animation:shake 0.5s;
@@ -85,16 +123,24 @@ body{
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
   .fake1{
-      display: none;
+      /* display: none; */
       position: absolute;
       z-index: 4;
       left: 70%;
-      top: 45%;
+      top: 47%;
   }
   .fake2{
-      display: none;
+      /* display: none; */
       position: absolute;
       z-index: 4;
       left: 1%;
       top: 38%;
+  }
+  .textField{
+      position: absolute;
+      z-index: 4;
+      left: 42%;
+      top: 121%;
+      width: 290px;
+      height: 20px;
   }

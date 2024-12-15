@@ -9,11 +9,16 @@ magicOBall.randomReply = function getReply(){
 const ask = document.querySelector('.ask');
 const replies = document.querySelector('.replies');
 const quoteBox = document.querySelector('.imgContainer2');
+const quoteBox2 = document.querySelector('.imgContainer3');
 const ball = document.querySelector('.ball');
 const fake1 = document.querySelector('.fake1');
 const fake2 = document.querySelector('.fake2');
 const text1 = document.querySelector('.text1');
 const broke = document.querySelector('.broke');
+const image = document.querySelector('.image');
+const himself = document.getElementById('himself');
+const prompt = window.prompt;
+const textField = document.querySelector('.textField');
 
 ask.addEventListener('click', function(){
     quoteBox.style.display = 'block';
@@ -26,18 +31,21 @@ ask.addEventListener('click', function(){
     broke.style.display = 'block';
     fake1.style.display = 'none';
     fake2.style.display = 'none';
+    quoteBox2.style.display = 'none';
+    textField.style.display = 'none';
     prompt('This is taking to long just ask your qusetion');
 });
 
 broke.addEventListener('click', function(){
     quoteBox.style.display = 'none';
     replies.style.display = 'none';
-    text1.style.display = 'block';
+    text1.style.display = 'none';
     broke.style.display = 'block';
     fake1.style.display = 'block';
     fake2.style.display = 'block';
     broke.style.display = 'none';
-        
+    textField.style.display = 'none';
+    quoteBox2.style.display = 'block';
 });
 
 broke.addEventListener('mouseover', function(){
@@ -47,3 +55,9 @@ broke.addEventListener('mouseover', function(){
 broke.addEventListener('mouseout', function(){
     createElement('p', 'Smart choice...');
 })
+
+// textField.addEventListener('input', function(){
+//     quoteBox2.style.display = 'block';
+//     text1.style.display = 'none';
+//     // textField.style.display = 'none';
+// })
